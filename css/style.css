@@ -3,17 +3,17 @@
 }
 
 .logo {
-  color: #2e2f42;
+  color: var(--primary-brand-color);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
 .logo2 {
-  color: var(--primary-brand-color);
+  color: #2e2f42;
 }
 
 .link {
@@ -29,17 +29,26 @@ button {
 }
 
 address {
-  font-style: serif;
+  font-style: normal;
 }
 
 body {
   color: #434455;
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+.mailphone {
+}
+
+.mailphone-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .mailphone:hover,
 .mailphone:focus {
-  color: var(--primary-brand-color);
+  color: #404bbf;
 }
 
 .hero-section {
@@ -52,6 +61,7 @@ body {
   line-height: 1.07;
   letter-spacing: 1.12px;
   color: #ffffff;
+  text-align: center;
 }
 
 .hero-button {
@@ -59,6 +69,16 @@ body {
   background-color: var(--primary-brand-color);
   border: none;
   outline: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
 .menu-link {
@@ -71,13 +91,17 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--primary-brand-color);
+  color: #404bbf;
 }
 
 .adv-list {
 }
 
 .adv-item {
+}
+
+.spdt {
+  color: #2e2f42;
 }
 
 .adv-h {
@@ -104,6 +128,17 @@ body {
 .our-team-item {
 }
 
+.our-team-h2 {
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
 .our-team-name {
   color: #2e2f42;
   font-family: Roboto;
@@ -126,12 +161,23 @@ body {
 }
 
 .our-portfolio-list {
+  background-color: #ffffff;
 }
 
 .our-portfolio-item {
 }
 
-.our-portfolio-h {
+.our-portfolio-h2 {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.our-portfolio-h3 {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
