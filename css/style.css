@@ -74,6 +74,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
 }
 
 .hero-button:hover,
@@ -109,6 +110,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  color: #2e2f42;
 }
 
 .adv-p {
@@ -126,6 +128,7 @@ body {
 }
 
 .our-team-item {
+    background-color: #ffffff;
 }
 
 .our-team-h2 {
@@ -198,7 +201,7 @@ body {
 }
 
 .footer-logo {
-  color: #ffffff;
+  color: #f4f4fd;
 }
 
 .footer-text {
