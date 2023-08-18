@@ -131,7 +131,7 @@ body {
     background-color: #ffffff;
 }
 
-.our-team-h2 {
+.our-team-hh {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -169,7 +169,7 @@ body {
 .our-portfolio-item {
 }
 
-.our-portfolio-h2 {
+.our-portfolio-hh {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -179,7 +179,7 @@ body {
   text-transform: capitalize;
 }
 
-.our-portfolio-h3 {
+.our-portfolio-name {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
