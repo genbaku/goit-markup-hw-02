@@ -38,7 +38,6 @@ img{
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -128,7 +127,7 @@ body {
 }
 
 .menu-item{
-  padding: 24px 0 24px;
+  padding: 24px 0;
 }
 
 .menu-link {
@@ -137,6 +136,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .menu-link:hover,
@@ -198,8 +198,6 @@ body {
 
 .benefits-list{
   display: flex;
-  padding-top: 120px;
-  padding-bottom: 120px;
   gap: 24px;
 }
 
@@ -288,6 +286,8 @@ body {
 }
 
 .our-portfolio {
+  padding-top: 120px; 
+  padding-bottom: 120px;
 }
 
 .our-portfolio-list {
