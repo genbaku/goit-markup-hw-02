@@ -150,7 +150,10 @@ body {
 }
 
 .hero-container{
-
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-logo {
@@ -179,6 +182,7 @@ body {
   min-width: 169px;
   height: 56px;
   border-radius: 4px; 
+  margin-top: 48px;
 }
 
 .hero-button:hover,
@@ -246,6 +250,7 @@ body {
 
 .our-team-photo{
   padding-bottom: 32px;
+  width: 100%;
 }
 
 .our-team-hh {
